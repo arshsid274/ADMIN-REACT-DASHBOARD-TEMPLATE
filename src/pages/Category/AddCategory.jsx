@@ -29,7 +29,7 @@ const data = {
 
     try {
       axios
-        .post(`http://localhost:5000/api/create`, data)
+        .post(`https://bcakend-banquet.vercel.app/api/create`, data)
         .then((res) => {
           if (res.data) {
             toast.success("Category Added Successfully!");

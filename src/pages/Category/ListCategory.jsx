@@ -43,7 +43,7 @@ const ListCategory = () => {
     try {
       // Simulate API delay
      
-        const response = await axios.get("http://localhost:5000/api/getAllCategory");
+        const response = await axios.get("https://bcakend-banquet.vercel.app/api/getAllCategory");
         const data = response.data;
         setUserData(data);
         setTotalPages(math.ceil(data.length / itemsPerPage));
