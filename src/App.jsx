@@ -8,7 +8,7 @@ import ListCategory from "./pages/Category/ListCategory";
 import UpdateCategory from "./pages/Category/UpdateCategory";
 import AddCategory from "./pages/Category/AddCategory"; // Import AddCategory
 
-import log from "./asss/pcs.png";
+import logo from "./assts/pcs.png";
 
 const App = () => {
   const navigate = useNavigate();
