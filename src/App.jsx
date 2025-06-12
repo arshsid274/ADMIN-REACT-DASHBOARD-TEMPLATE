@@ -7,7 +7,7 @@ import Booking from "./pages/Banquet/Booking";
 import ListCategory from "./pages/Category/ListCategory";
 import UpdateCategory from "./pages/Category/UpdateCategory";
 import AddCategory from "./pages/Category/AddCategory"; // Import AddCategory
-i  frm "png";
+i  fm "png";
 
 const App = () => {
   const navigate = useNavigate();
